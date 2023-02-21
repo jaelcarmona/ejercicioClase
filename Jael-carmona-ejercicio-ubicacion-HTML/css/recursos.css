@@ -1,0 +1,49 @@
+.contenedor-pagina-negra {
+  border: 10px solid black;
+  padding: 20px 30px;
+  margin: 20px 0;
+}
+
+
+.contenedor-pagina-blanca {
+  border: 10px solid white;
+  padding: 20px 30px;
+  margin: 20px 0;
+}
+
+.ul-cuadro-negro {
+  list-style-type: none;
+  background-color: black;
+}
+
+  #li-cuadro-negro {
+float: left;
+text-align: center;
+width: 60em;
+font-weight: bold;
+background-color: black;
+}
+
+ul {
+      list-style-type: none;
+  }
+   
+  li {
+    background-color: white;
+    float: left;
+    text-align: center;
+    width: 10em;
+    font-weight: bold;
+  }
+
+
+u {
+text-decoration-color: orangered;
+
+}
+
+#espacio-box-model {
+  border: 40px 0px;
+  padding: 20px 30px;
+  margin: 20px 0px;
+}
