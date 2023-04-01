@@ -1,6 +1,6 @@
 .body {
     color: white;
-    background: linear-gradient(to right, black, black, purple, rgb(60, 60, 60), black);
+    background: #101113;
     font-family: sans-serif
 }
 
@@ -66,8 +66,9 @@
 }
 
 
-.span-h1 {
-    font-weight: bolder;
+.span-2 {
+    color: white;
+    text-decoration: underline;
 }
 
 .span-email {
@@ -94,7 +95,7 @@
 .h2   {
     font-size: 105px;
     text-align: center;
-    opacity: 0.8;
+   
 }
 
 
@@ -111,15 +112,23 @@
 .h2-3  {
     font-size: 70px;
     text-align: center;
-    opacity: 0.8;
+    
 }
 
 .h3  {
     font-size: 25px;
     text-align: center;
-    color:rgb(180, 180, 180);
+    color:white;
+    padding-bottom: 75px;
+    
+}
+
+.h3-1  {
+    font-size: 25px;
+    text-align: center;
+    color:grey;
     padding-bottom: 150px;
-    opacity: 0.7;
+    
 }
 
 
@@ -160,19 +169,21 @@
 }
 
 .card-jr-2 {
-    width: 100px;
-    height: 80px;
-    border-radius: 20px;
-    box-shadow: 0 2px 2px white;
+    width: 800px;
+    height: 50px;
+    border-width: 2px;
+    box-shadow: 0 2px 0px white;
+    box-shadow: white;
     overflow: hidden;
     transition: all 0.25s;
+    text-align: justify;
     display:flex;
     flex-direction: column;
     justify-content:space-between;
+    margin-right: 50em;
     border-radius:15px;
-    font-size: 20px;
-    text-align: center;
-    margin: 5px;
+    padding: 25px;
+    font-size: 25px;
 
 }
 
@@ -196,8 +207,8 @@
 
 
 .device-card {
-    width: 2250px;
-    height: 300px;
+    width: 1800px;
+    height: 550px;
     border-radius: 20px;
     box-shadow: 0 2px 2px black;
     overflow: hidden;
@@ -207,14 +218,14 @@
     flex-direction: column;
     justify-content:space-between;
     border-radius:15px;
-    background-color: #101113;
+    background-color: rgb(60, 60, 60);
     padding: 25px;
     margin: 0 auto;
 }
 
-.card {
-    width: 600px;
-    height: 640px;
+.device-card-jr {
+    width: 900px;
+    height: 600px;
     border-radius: 20px;
     box-shadow: 0 2px 2px black;
     overflow: hidden;
@@ -224,9 +235,26 @@
     flex-direction: column;
     justify-content:space-between;
     border-radius:15px;
-    background-color: #101113;
+    background-color: rgb(60, 60, 60);
     padding: 25px;
 }
+
+.frecuent-questions {
+    width: 900px;
+    height: 1500px;
+    border-radius: 20px;
+    box-shadow: 0 2px 2px black;
+    overflow: hidden;
+    margin: 50px;
+    transition: all 0.25s;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    border-radius:15px;
+    background-color: transparent;
+    padding: 25px;
+}
+
  
 .card-title {
     font-weight: bold;
@@ -264,7 +292,7 @@
 }
 
 .card-jr-3 {
-    width: 300px;
+    width: 250px;
     height: 30px;
     border-width: 2px;
     border-style: solid;
@@ -275,7 +303,7 @@
     display:flex;
     flex-direction: column;
     justify-content:space-between;
-    margin-left: 80em;
+    margin: 0 auto;
     border-radius:15px;
     padding: 25px;
     font-size: 25px;
@@ -293,7 +321,6 @@
     color: white;
     line-height: 200%;
 }
-
 
 
 .icon-android:before {
